@@ -1,0 +1,83 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.welcome form{
+  float: right;
+  margin-right: 20px;
+}
+.admin, .manager{
+  margin-top: 60px;
+}
+.alert{
+  position: absolute;
+  width: 100%;
+}
+.tab-pane.active{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+table form{
+  float: left; margin-left: 10px;
+}
+textarea{
+  resize: none;
+}
+.form-horizontal .control-label{
+  text-align: left;
+}
+.state-info{
+  background-color: white;
+  border-radius: 25px;
+  padding: 25px;
+}
+.right{
+  float: right;
+}
+.left{
+  float: left;
+}
+.st_info .btn.right{
+  margin-right: 10px;
+}
+.child, .man, .status{
+  margin-bottom: 15px;
+  background-color: #eeeeee;
+  border-radius: 25px;
+  padding: 25px;
+}
+.child h3, .man h3, .status h3{
+  text-align: center;
+}
+.child h4, .man h4, .status h4{
+  text-align: center;
+}
+.st_info{
+  margin-top: 45px;
+}
+.status_edit{
+  margin-top: 15px;
+}
+.download{
+  margin-top: -34px;
+}
+.st-st{
+  height: 200px;
+  width: 100%;
+}
+.fr_file{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
